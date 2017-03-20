@@ -1,0 +1,740 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+.logo-container img { width: 223px; height: 227px; }
+
+.top-container {
+  position: relative;
+  opacity: 0.75;
+  z-index: 1;
+
+  background: url("../images/background3.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  width: 100%;
+  min-height: 960px;
+}
+
+.right-menu {
+  position: relative;
+  left: 20px;
+}
+
+.container {
+  position: relative;
+
+  background: url("../images/background3.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  width: 100%;
+  min-height: 960px;
+}
+
+.column-1 {
+  display: inline-block;
+  width: 800px;
+}
+
+/*
+.column-2 {
+  display: inline-block;
+  position: relative;
+  width: 350px;
+  top: -550px;
+}
+
+.column-3 {
+  display: inline-block;
+  position: relative;
+  top: -150px;
+  width: 200px;
+}
+*/
+
+.column-2 {
+  display: inline-block;
+  position: absolute;
+  width: 350px;
+  right: 250px;
+  top: 0px;
+}
+
+.twitter-sub-menu {
+  position: absolute;
+  top: 260px;
+}
+
+.column-3 {
+  display: inline-block;
+  position: absolute;
+  width: 200px;
+  top: 20px;
+  right: 50px;
+}
+
+.tagline {
+    /* font-family: "Gotham A", "Gotham B"; */
+  font-family: sans-serif, "Impact";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 46px;
+  line-height: 1;
+  color: #ffffff;
+
+  margin-top: 70px;
+}
+
+.graph-2 {
+  position: relative;
+  top: -40px;
+}
+
+.content-bold {
+    /* font-family: "Gotham A", "Gotham B"; */
+  font-family: sans-serif, "Impact";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: #000000;
+}
+
+.content {
+    /* font-family: "Gotham A", "Gotham B"; */
+  font-family: sans-serif, "Impact";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  color: #ffffff;
+
+  margin-top: 50px;
+}
+
+.careers { float: left; }
+.careers a {
+  display: block;
+  /* font-family: "Gotham A", "Gotham B"; */
+  font-family: sans-serif, "Impact";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  margin-top: 100px;
+  margin-right: 50px;
+  text-decoration: none;
+}
+
+.careers a:hover { text-decoration: underline; }
+
+.copyright {
+  float: left;
+  /* font-family: "Gotham A", "Gotham B"; */
+  font-family: sans-serif, "Impact";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+
+  margin-top: 100px;
+}
+
+.newsletter-input-placeholder {
+    /* font-family: "Gotham A", "Gotham B"; */
+  font-family: sans-serif, "Impact";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+ul.menu {
+  list-style-type: none;
+}
+
+li {
+  margin-bottom: 60px;
+  cursor: pointer;
+}
+
+.oval {
+  width: 14px;
+  height: 14px;
+  opacity: 0.4;
+  border: solid 2px #ffffff;
+  border-radius: 14px;
+  display: inline-block;
+  position: relative;
+  top: -18px;
+  left: 20px;
+  cursor: pointer;
+}
+
+.tumblr-list {
+  position: relative;
+  left: 30px;
+}
+
+.twitter-list {
+  position: relative;
+  left: -2px;
+}
+.instagram-list {
+  position: relative;
+  left: 5px;
+}
+
+.youtube-list {
+  position: relative;
+  left: -42px;
+}
+
+.vine-list {
+  position: relative;
+  left: 8px;
+}
+
+.right-sub-menu {
+    /* font-family: "Gotham A", "Gotham B"; */
+  font-family: sans-serif, "Impact";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  color: #ffffff;
+
+}
+
+.line {
+  width: 353px;
+  height: 1px;
+  opacity: 0.5;
+  border: solid 1px #ffffff;
+  margin: 20px 0;
+  background-color #ffffff;
+  color: #ffffff;
+}
+
+.facebook-btn-active {
+  display: none;
+}
+
+.menu-divider {
+  margin-top: 40px;
+}
+
+.facebook-sub-menu {
+  position: relative;
+  top: 20px;
+  display: none;
+}
+
+body.facebook .facebook-sub-menu {
+  display: inline-block;
+}
+
+.nowthis-arrow {
+  position: relative;
+  left: 220px;
+  display: none;
+}
+
+.election-arrow {
+  position: relative;
+  left: 116px;
+  display: none;
+}
+
+.booze-arrow {
+  position: relative;
+  left: 136px;
+  display: none;
+}
+
+.future-arrow {
+  position: relative;
+  left: 132px;
+  display: none;
+}
+
+.entertainment-arrow {
+  position: relative;
+  left: 40px;
+  display: none;
+}
+
+.weed-arrow {
+  position: relative;
+  left: 142px;
+  display: none;
+}
+
+.twitter-btn-active {
+  display: none;
+}
+
+body.facebook .facebook-btn-active {
+  display: inline-block;
+}
+
+body.facebook .facebook-btn {
+  display: none;
+}
+
+body.facebook .facebook.oval {
+  background-color: #ffffff;
+  opacity: 1.0;
+}
+
+body.twitter .twitter-btn-active {
+  display: inline-block;
+}
+
+body.twitter .twitter-btn {
+  display: none;
+}
+
+body.twitter .oval.twitter {
+  background-color: #ffffff;
+  opacity: 1;
+}
+
+
+.twitter-sub-menu {
+  display: none;
+}
+
+body.twitter .twitter-sub-menu {
+  display: inline-block;
+}
+
+.nowthisnews-arrow {
+  position: relative;
+  left: 140px;
+  display: none;
+}
+
+.nowthisteam-arrow {
+  position: relative;
+  left: 170px;
+  display: none;
+}
+
+.instagram-active-btn {
+  display: none;
+}
+
+body.instagram .instagram-active-btn {
+  display: inline-block;
+}
+
+body.instagram .instagram-btn {
+  display: none;
+}
+
+body.instagram .oval.instagram {
+  background-color: #ffffff;
+  opacity: 1;
+}
+
+.instagram-sub-menu {
+  position: relative;
+  top: 30px;
+  display: none;
+}
+
+body.instagram .instagram-sub-menu {
+  display: inline-block;
+}
+
+.instagram-arrow {
+  position: relative;
+  left: 140px;
+  display: none;
+}
+
+body.vine .oval.vine {
+  background-color: #ffffff;
+  opacity: 1;
+}
+
+.vine-active-btn {
+  display: none;
+}
+
+body.vine .vine-active-btn {
+  display: inline-block;
+}
+
+body.vine .vine-btn {
+  display: none;
+}
+
+.vine-sub-menu {
+  display: none;
+}
+
+body.vine .vine-sub-menu {
+  position: relative;
+  top: 140px;
+  display: inline-block
+}
+
+.vine-arrow {
+  position: relative;
+  left: 140px;
+  display: none;
+}
+
+.tumblr-active-btn {
+  display: none;
+}
+
+body.tumblr .tumblr-active-btn {
+  display: inline-block;
+}
+
+body.tumblr .tumblr-btn {
+  display: none;
+}
+
+body.tumblr .oval.tumblr {
+  background-color: #ffffff;
+  opacity: 1;
+}
+
+.tumblr-sub-menu {
+  position: relative;
+  top: 260px;
+  display: none;
+}
+
+.tumblr-arrow {
+  position: relative;
+  left: 25px;
+  display: none;
+}
+
+body.tumblr .tumblr-sub-menu {
+  display: inline-block;
+}
+
+.youtube-active-btn {
+  display: none;
+}
+
+body.youtube .youtube-btn {
+  display: none;
+}
+
+body.youtube .youtube-active-btn {
+  display: inline-block;
+}
+
+body.youtube .oval.youtube {
+  background-color: #ffffff;
+  opacity: 1;
+}
+
+.youtube-sub-menu {
+  position: relative;
+  top: 370px;
+  display: none;
+}
+
+.youtube-arrow {
+  position: relative;
+  left: 156px;
+  display: none;
+}
+
+
+body.youtube .youtube-sub-menu {
+  display: inline-block;
+}
+
+.snapchat-logo {
+  display: none;
+}
+
+body.snapchat .snapchat-hide {
+  display: none;
+}
+
+.snapchat-show {
+  display: none;
+}
+
+body.snapchat .snapchat-show {
+  display: inline-block;
+}
+
+body.snapchat .oval {
+  border: solid 2px #000000;
+}
+
+body.snapchat .oval.snapchat {
+  background-color: #000000;
+  opacity: 1;
+}
+
+body.snapchat .tagline {
+  color: #000;
+}
+
+body.snapchat .content {
+  color: #000;
+}
+
+body.snapchat .copyright {
+  color: #000;
+}
+
+.snapchat-sub-menu {
+  position: relative;
+  top: -200px;
+  color: #000000;
+  display: none;
+}
+
+body.snapchat .snapchat-sub-menu {
+  display: inline-block;
+}
+
+.snapchat-arrow {
+  position: relative;
+  left: 230px;
+  display: none;
+}
+
+body.snapchat .line {
+  border: solid 1px #000000;
+}
+
+.menu-item {
+  width: 350px;
+  cursor: pointer;
+}
+
+input[type="email"] {
+	display: inline-block;
+	margin: 0;
+	width: 100%;
+	appearance: none;
+	box-shadow: none;
+  border: 1px solid rgba(255,255,255,0.5);
+	border-radius: 5px;
+  width: 260px;
+  background: transparent;
+  padding: 5px;
+
+  /* font-family: "Gotham A", "Gotham B"; */
+  font-family: sans-serif, "Impact";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+
+  margin-top: 10px;
+}
+
+body.snapchat input[type="email"] {
+  color: #000;
+}
+
+input[type="email"]:focus {
+	outline: none;
+}
+
+body.snapchat .submit-words {
+  color: #000;
+}
+
+.submit-btn {
+  width: 96px;
+  height: 36px;
+  border-radius: 4px;
+  appearance: none;
+  border: none;
+  box-shadow: none;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+
+  /* font-family: "Gotham A", "Gotham B"; */
+  font-family: sans-serif, "Impact";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+::-webkit-input-placeholder {
+  color: #fff;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #fff;
+ }
+
+ ::-moz-placeholder {  /* Firefox 19+ */
+   color: #fff;
+ }
+
+ :-ms-input-placeholder {
+   color: #fff;
+ }
+
+.submit-words {
+    /* font-family: "Gotham A", "Gotham B"; */
+  font-family: sans-serif, "Impact";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+  position: relative;
+  left: -80px;
+}
+
+.mail-arrow {
+  position: relative;
+  top: -40px;
+  left: 300px;
+  cursor: pointer;
+  transform: rotate(180deg);
+}
+
+.email-form {
+  position: relative;
+  top: 15px;
+}
+
+@media screen and (min-width: 1800px) {
+  .column-3 {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+  }
+
+  .column-2 {
+    position: absolute;
+    top: 50px;
+    right: 250px;
+  }
+
+  body.twitter .twitter-sub-menu {
+    position: relative;
+    top: 230px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .tagline {
+    font-size: 40px;
+  }
+
+  .content {
+    font-size: 16px;
+    margin-top: 70px;
+  }
+
+  .careers a {
+    font-size: 12px;
+    margin-right: 130px;
+  }
+
+  .copyright {
+    font-size: 12px;
+  }
+
+  .container {
+    min-width: 1000px;
+  }
+
+  .column-1 {
+    width: 450px;
+    position: relative;
+    top: 20px;
+  }
+
+  .column-2 {
+    width: 305px;
+    top: 0px;
+  }
+
+  .column-3 {
+    top: 0;
+  }
+
+  .right-sub-menu {
+    font-size: 22px;
+  }
+
+  .line {
+    width: 300px;
+  }
+
+  body.tumblr .right-menu {
+    margin-left: 0px;
+  }
+
+  body.youtube .right-menu {
+  }
+
+  .youtube-arrow {
+    left: 120px;
+  }
+
+  .tumblr-arrow {
+    left: 10px;
+  }
+
+  .vine-arrow {
+    left: 110px;
+  }
+
+  .instagram-arrow {
+    left: 110px;
+  }
+
+  .nowthisnews-arrow {
+    left: 110px;
+  }
+
+  .nowthisteam-arrow {
+    left: 140px;
+  }
+
+  .snapchat-arrow {
+    left: 180px;
+  }
+
+  .nowthis-arrow {
+    left: 180px;
+  }
+
+  .election-arrow {
+    left: 80px;
+  }
+
+  .booze-arrow {
+    left: 100px;
+  }
+
+  .future-arrow {
+    left: 100px;
+  }
+
+  .entertainment-arrow {
+    left: 20px;
+  }
+
+  .weed-arrow {
+    left: 110px;
+  }
+}

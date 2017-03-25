@@ -1,4 +1,6 @@
-body {
+@import url('https://fonts.googleapis.com/css?family=Biryani');
+
+html, body {
     width: 100%;
     height: 100%;
     margin: 0px;
@@ -25,11 +27,6 @@ body {
   min-height: 960px;
 }
 
-.right-menu {
-  position: relative;
-  left: 20px;
-}
-
 .container {
   position: relative;
 
@@ -38,18 +35,28 @@ body {
   /* -moz-background-size: cover; */
   /* -o-background-size: cover; */
   /* background-size: cover; */
-  background-color: lightgrey;
+  background-color: white;
 
   width: 100%;
   min-height: 960px;
 }
 
+#scroll {
+    text-align: center;
+    display: block;
+}
+
+#scroll img {
+    height: 50px;
+    width: 50px;
+}
+
 .title {
     text-align: center;
     font-size: 100px;
-    /* font-weight: bolder; */
-    font-family: 'itc_avant_garde_gothicbold';
-    color: black;
+    font-weight: bolder;
+    font-family: Biryani, "Cambria", sans-serif;
+    color: lightsteelblue;
     margin-top: 100px;
 }
 
@@ -58,75 +65,22 @@ body {
     padding-top: 75px;
     padding-left: 50px;
     font-size: 60px;
-    font-family: "Impact", sans-serif;
+    font-family: Helvetica, sans-serif;
+}
+
+.center {
+    margin: 0 auto;
+    width: 15%;
+}
+
+.center img {
+    height: 300px;
+    width: 300px;
 }
 
 .column-1 {
   display: inline-block;
   width: 800px;
-}
-
-/*
-.column-2 {
-  display: inline-block;
-  position: relative;
-  width: 350px;
-  top: -550px;
-}
-
-.column-3 {
-  display: inline-block;
-  position: relative;
-  top: -150px;
-  width: 200px;
-}
-*/
-
-.column-2 {
-  display: inline-block;
-  position: absolute;
-  width: 350px;
-  right: 250px;
-  top: 0px;
-}
-
-.twitter-sub-menu {
-  position: absolute;
-  top: 260px;
-}
-
-.column-3 {
-  display: inline-block;
-  position: absolute;
-  width: 200px;
-  top: 20px;
-  right: 50px;
-}
-
-.tagline {
-    /* font-family: "Gotham A", "Gotham B"; */
-  font-family: sans-serif, "Impact";
-  font-style: normal;
-  font-weight: 800;
-  font-size: 46px;
-  line-height: 1;
-  color: #ffffff;
-
-  margin-top: 70px;
-}
-
-.graph-2 {
-  position: relative;
-  top: -40px;
-}
-
-.content-bold {
-    /* font-family: "Gotham A", "Gotham B"; */
-  font-family: sans-serif, "Impact";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  color: #000000;
 }
 
 .content {
@@ -135,9 +89,23 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
-  color: #ffffff;
+  color: black;
 
   margin-top: 50px;
+
+  padding-top: 75px;
+  padding-left: 50px;
+}
+
+.footer {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: lightgrey;
+    text-align: left;
+    font-family: sans-serif;
 }
 
 .careers { float: left; }

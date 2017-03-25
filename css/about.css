@@ -14,6 +14,13 @@ body {
 .top-container {
   position: relative;
 
+  background: url("../images/codeblocks.gif") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* background-color: skyblue; */
+
   width: 100%;
   min-height: 960px;
 }
@@ -26,7 +33,7 @@ body {
 .container {
   position: relative;
 
-  /* background: url("../images/background3.png") no-repeat center center fixed; */
+  /* background: url("../images/world.jpg") no-repeat center center fixed; */
   /* -webkit-background-size: cover; */
   /* -moz-background-size: cover; */
   /* -o-background-size: cover; */
@@ -40,10 +47,18 @@ body {
 .title {
     text-align: center;
     font-size: 100px;
-    font-weight: bolder;
-    font-family: sans-serif, "Impact";
+    /* font-weight: bolder; */
+    font-family: 'itc_avant_garde_gothicbold';
     color: black;
     margin-top: 100px;
+}
+
+.subtitle {
+    text-align: left;
+    padding-top: 75px;
+    padding-left: 50px;
+    font-size: 60px;
+    font-family: "Impact", sans-serif;
 }
 
 .column-1 {

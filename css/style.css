@@ -24,6 +24,19 @@ html {
   background-color: #061981;
 }
 
+ul.nav {
+  position: fixed;
+  z-index: 11;
+  list-style: none;
+  margin-left: -115px;
+  margin-top: -43px;
+}
+
+li.nav {
+  display: inline-block;
+  cursor: pointer;
+}
+
 body {
   padding: 35px 70px;
 }
@@ -66,11 +79,6 @@ body {
   width: 350px;
   right: 250px;
   top: 0px;
-}
-
-.twitter-sub-menu {
-  position: absolute;
-  top: 260px;
 }
 
 .column-3 {
@@ -190,81 +198,7 @@ li {
   left: -42px;
 }
 
-.vine-list {
-  position: relative;
-  left: 8px;
-}
-
-.right-sub-menu {
-  font-family: "Gotham A", "Gotham B";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  color: #ffffff;
-
-}
-
-.line {
-  width: 353px;
-  height: 1px;
-  opacity: 0.5;
-  border: solid 1px #ffffff;
-  margin: 20px 0;
-  background-color #ffffff;
-  color: #ffffff;
-}
-
 .facebook-btn-active {
-  display: none;
-}
-
-.menu-divider {
-  margin-top: 40px;
-}
-
-.facebook-sub-menu {
-  position: relative;
-  top: 20px;
-  display: none;
-}
-
-body.facebook .facebook-sub-menu {
-  display: inline-block;
-}
-
-.nowthis-arrow {
-  position: relative;
-  left: 220px;
-  display: none;
-}
-
-.election-arrow {
-  position: relative;
-  left: 116px;
-  display: none;
-}
-
-.booze-arrow {
-  position: relative;
-  left: 136px;
-  display: none;
-}
-
-.future-arrow {
-  position: relative;
-  left: 132px;
-  display: none;
-}
-
-.entertainment-arrow {
-  position: relative;
-  left: 40px;
-  display: none;
-}
-
-.weed-arrow {
-  position: relative;
-  left: 142px;
   display: none;
 }
 
@@ -298,27 +232,6 @@ body.twitter .oval.twitter {
   opacity: 1;
 }
 
-
-.twitter-sub-menu {
-  display: none;
-}
-
-body.twitter .twitter-sub-menu {
-  display: inline-block;
-}
-
-.nowthisnews-arrow {
-  position: relative;
-  left: 140px;
-  display: none;
-}
-
-.nowthisteam-arrow {
-  position: relative;
-  left: 170px;
-  display: none;
-}
-
 .instagram-active-btn {
   display: none;
 }
@@ -334,55 +247,6 @@ body.instagram .instagram-btn {
 body.instagram .oval.instagram {
   background-color: #ffffff;
   opacity: 1;
-}
-
-.instagram-sub-menu {
-  position: relative;
-  top: 30px;
-  display: none;
-}
-
-body.instagram .instagram-sub-menu {
-  display: inline-block;
-}
-
-.instagram-arrow {
-  position: relative;
-  left: 140px;
-  display: none;
-}
-
-body.vine .oval.vine {
-  background-color: #ffffff;
-  opacity: 1;
-}
-
-.vine-active-btn {
-  display: none;
-}
-
-body.vine .vine-active-btn {
-  display: inline-block;
-}
-
-body.vine .vine-btn {
-  display: none;
-}
-
-.vine-sub-menu {
-  display: none;
-}
-
-body.vine .vine-sub-menu {
-  position: relative;
-  top: 140px;
-  display: inline-block
-}
-
-.vine-arrow {
-  position: relative;
-  left: 140px;
-  display: none;
 }
 
 .tumblr-active-btn {
@@ -402,22 +266,6 @@ body.tumblr .oval.tumblr {
   opacity: 1;
 }
 
-.tumblr-sub-menu {
-  position: relative;
-  top: 260px;
-  display: none;
-}
-
-.tumblr-arrow {
-  position: relative;
-  left: 25px;
-  display: none;
-}
-
-body.tumblr .tumblr-sub-menu {
-  display: inline-block;
-}
-
 .youtube-active-btn {
   display: none;
 }
@@ -433,23 +281,6 @@ body.youtube .youtube-active-btn {
 body.youtube .oval.youtube {
   background-color: #ffffff;
   opacity: 1;
-}
-
-.youtube-sub-menu {
-  position: relative;
-  top: 370px;
-  display: none;
-}
-
-.youtube-arrow {
-  position: relative;
-  left: 156px;
-  display: none;
-}
-
-
-body.youtube .youtube-sub-menu {
-  display: inline-block;
 }
 
 .snapchat-logo {
@@ -487,27 +318,6 @@ body.snapchat .content {
 
 body.snapchat .copyright {
   color: #000;
-}
-
-.snapchat-sub-menu {
-  position: relative;
-  top: -200px;
-  color: #000000;
-  display: none;
-}
-
-body.snapchat .snapchat-sub-menu {
-  display: inline-block;
-}
-
-.snapchat-arrow {
-  position: relative;
-  left: 230px;
-  display: none;
-}
-
-body.snapchat .line {
-  border: solid 1px #000000;
 }
 
 .menu-item {
@@ -616,11 +426,6 @@ body.snapchat .submit-words {
     top: 50px;
     right: 250px;
   }
-
-  body.twitter .twitter-sub-menu {
-    position: relative;
-    top: 230px;
-  }
 }
 
 @media screen and (max-width: 1400px) {
@@ -661,70 +466,10 @@ body.snapchat .submit-words {
     top: 0;
   }
 
-  .right-sub-menu {
-    font-size: 22px;
-  }
-
-  .line {
-    width: 300px;
-  }
-
   body.tumblr .right-menu {
     margin-left: 0px;
   }
 
   body.youtube .right-menu {
-  }
-
-  .youtube-arrow {
-    left: 120px;
-  }
-
-  .tumblr-arrow {
-    left: 10px;
-  }
-
-  .vine-arrow {
-    left: 110px;
-  }
-
-  .instagram-arrow {
-    left: 110px;
-  }
-
-  .nowthisnews-arrow {
-    left: 110px;
-  }
-
-  .nowthisteam-arrow {
-    left: 140px;
-  }
-
-  .snapchat-arrow {
-    left: 180px;
-  }
-
-  .nowthis-arrow {
-    left: 180px;
-  }
-
-  .election-arrow {
-    left: 80px;
-  }
-
-  .booze-arrow {
-    left: 100px;
-  }
-
-  .future-arrow {
-    left: 100px;
-  }
-
-  .entertainment-arrow {
-    left: 20px;
-  }
-
-  .weed-arrow {
-    left: 110px;
   }
 }
